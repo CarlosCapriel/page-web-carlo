@@ -10,8 +10,7 @@
 <body class="bg-blue-500">
     <!-- Nav -->
     <?php require_once 'public/nav.php' ?>
-
-    <!-- content Page -->
-    <?php require_once 'public/views/home.php' ?>
+    <!-- Content -->
+    <?php include 'controllers/routing.php' ?>
 </body>
 </html>
