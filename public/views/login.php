@@ -9,16 +9,20 @@
     } else {
         ?>
     <div class="flex justify-center mt-10">
-        <form action="./db/validation.php" method="POST" class="bg-blue-200 w-96 h-80 shadow-2xl rounded-lg">
-            <div class="flex-row m-4">
-                <label for="email">Email: </label>
-                <input type="email" name="email" id="">
+        <form action="./db/validation.php" method="POST" 
+        class="bg-blue-200 w-96 h-80 shadow-2xl rounded-lg">
+            <div class="m-4 mt-8">
+                <label for="email" class="mr-4 flex flex-row">Email: </label>
+                <input type="email" name="email" class="p-1 flex flex-row rounded-lg w-full">
             </div>
-            <div class="flex-row m-4">
-                <label for="password">Contraseña: </label>
-                <input type="password" name="contrasenia">
+            <div class="m-4 mt-8">
+                <label for="contrasenia" class="flex flex-row mr-4">Contraseña: </label>
+                <input type="password" name="contrasenia" class="w-full p-1 rounded-lg flex flex-row">
             </div>
-            <button type="submit" name="action">Iniciar sesión</button>
+            <button type="submit" name="action" class="bg-blue-500 text-blue-100 
+                    rounded-lg py-2 px-4 ml-4 mt-10 hover:bg-blue-400">
+                Iniciar sesión
+            </button>
         </form>
     </div>
 <?php

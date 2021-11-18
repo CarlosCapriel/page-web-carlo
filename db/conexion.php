@@ -1,8 +1,4 @@
 <?php
-    if (!isset($_GET['menu'])) {
-        echo '<script>window.location.href="../../index.php?menu=401"</script>';
-    // <!-- <h3>No tiene permisos para entrar a la página. <h3> -->
-    } else {
         class conexion
         {
             private $server;
@@ -81,4 +77,3 @@
                 }
             }
         }
-    }
