@@ -3,10 +3,9 @@
     if ($estado_session == PHP_SESSION_NONE) {
         session_start();
     }
-    if (isset($_SESSION['loggedUserName'])) {
-        ?>
-            <h3>No tiene permisos para entrar a la página. <h3>
- <?php
+    if (isset($_SESSION['loggedUserName']) || !isset($_GET['menu'])) {
+        echo '<script>window.location.href="../../index.php?menu=401"</script>';
+    // <!-- <h3>No tiene permisos para entrar a la página. <h3> -->
     } else {
         ?>
     <div class="flex justify-center mt-10">

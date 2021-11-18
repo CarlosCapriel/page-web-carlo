@@ -1,3 +1,9 @@
+<?php
+    if (!isset($_GET['menu'])) {
+        echo '<script>window.location.href="../../index.php?menu=401"</script>';
+    // <!-- <h3>No tiene permisos para entrar a la página. <h3> -->
+    } else {
+        ?>
 <div class="py-24 flex items-center justify-center">
     <div class="bg-blue-200 rounded-lg shadow-2x1 w-1/5">
         <img src="public/images/php_logo.png" alt="" 
@@ -13,3 +19,7 @@
         </div>
     </div>
 </div>
+
+<?php
+    }
+?>
