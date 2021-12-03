@@ -16,6 +16,7 @@
                     <li class="pr-8 hover:bg-gray-800 p-4"><a href="?menu=iniciologeado">Biografía</a></li>
                     <li class="pr-8 hover:bg-gray-800 p-4"><a href="?menu=logout">Logout</a></li>
                     <li class="pr-8 hover:bg-gray-800 p-4"><a href="?menu=tecnos">Tecnologias</a></li>
+                    <li class="pr-8 hover:bg-gray-800 p-4"><a href="?menu=gal">Galeria</a></li>
                 </ul>
             </nav>
     <?php

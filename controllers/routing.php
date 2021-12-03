@@ -22,6 +22,21 @@
             case '401':
                 require_once('./public/views/401.php');
                 break;
+            case 'css3':
+                header("location: https://developer.mozilla.org/es/docs/Web/CSS");
+                break;
+            case 'html5':
+                header("location: https://developer.mozilla.org/es/docs/Glossary/HTML5");
+                    break;
+            case 'tailwind':
+                header("location: https://tailwindcss.com");
+                break;
+            case 'php':
+                header("location: https://www.php.net/manual/es/intro-whatis.php");
+                break;
+            case 'gal':
+                require_once('./public/views/galeria.php');
+                break;
             default:
                 require_once('./public/views/home.php');
         }
