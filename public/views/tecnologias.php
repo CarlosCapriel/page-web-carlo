@@ -13,7 +13,7 @@
             <p class="truncate">HTML (Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) 
                 es el componente más básico de la Web</p>
             <button class="bg-blue-500 text-blue-100 rounded-lg py-2 px-4 mt-5">
-                Ver más
+                <a href="?menu=html5" target="blank">Ver más</a>
             </button>
         </div>
     </div>
@@ -26,7 +26,7 @@
                 lenguaje de código abierto muy popular especialmente adecuado 
                 para el desarrollo web y que puede ser incrustado en HTML.</p>
             <button class="bg-blue-500 text-blue-100 rounded-lg py-2 px-4 mt-5">
-                Ver más
+                <a href="?menu=php" target="blank">Ver más</a>
             </button>
         </div>
     </div>
@@ -38,7 +38,7 @@
             <p class="truncate">CSS (en inglés Cascading Style Sheets) es lo que se 
                 denomina lenguaje de hojas de estilo en cascada y se usa para estilizar</p>
             <button class="bg-blue-500 text-blue-100 rounded-lg py-2 px-4 mt-5">
-                Ver más
+                <a href="?menu=css3" target="blank">Ver más</a>
             </button>
         </div>
     </div>
@@ -50,7 +50,7 @@
             <p class="truncate">Tailwind CSS es un framework CSS que permite un desarrollo ágil, 
                 basado en clases de utilidad que se pueden aplicar con facilidad en el código</p>
             <button class="bg-blue-500 text-blue-100 rounded-lg py-2 px-4 mt-5">
-                Ver más
+                <a href="?menu=tailwind" target="blank">Ver más</a>
             </button>
         </div>
     </div>
